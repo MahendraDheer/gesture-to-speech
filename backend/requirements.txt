@@ -1,0 +1,12 @@
+# requirements.txt
+
+# This file lists the required Python libraries for the backend.
+fastapi
+uvicorn
+tensorflow
+mediapipe
+opencv-python
+pydantic
+numpy
+scikit-learn
+python-multipart
