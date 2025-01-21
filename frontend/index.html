@@ -3,16 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signus - Gesture to Speech Recognition</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Gestura</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div id="app">
-        <h1>Signus - Gesture to Speech Recognition</h1>
-        <video id="videoFeed" autoplay></video>
-        <div id="textDisplay">Detected Gesture: </div>
-        <button id="resetButton">Reset Conversation</button>
+    <!-- Header Section -->
+    <header id="header">
+        <div id="site-name">Gestura</div>
+        <nav id="nav-bar">
+            <a href="#dashboard">My Dashboard</a>
+            <div id="user-info">
+                <span id="user-name">Rishabh Dwivedi</span>
+                <div id="profile-pic-container">
+                    <img src="profile-pic.jpg" alt="Profile Picture" id="profile-pic">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Navigation Bar Section -->
+    <nav id="nav">
+        <!-- Navigation links will be added later -->
+    </nav>
+
+    <!-- Camera Feed Section -->
+    <div id="camera-section">
+        <video id="camera-feed" autoplay></video>
     </div>
-    <script src="app.js"></script>
+
+    <!-- Image Section with Translucent Background -->
+    <div id="image-section">
+        <div class="image-item">
+            <img src="image1.jpg" alt="Image 1">
+            <p>Text Under Image 1</p>
+        </div>
+        <div class="image-item">
+            <img src="image2.jpg" alt="Image 2">
+            <p>Text Under Image 2</p>
+        </div>
+        <div class="image-item">
+            <img src="image3.jpg" alt="Image 3">
+            <p>Text Under Image 3</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
